@@ -1,0 +1,13 @@
+{
+    "markdown.validate.enabled": true,
+    "mdx.validate.validateDuplicateLinkDefinitions": "error",
+    "mdx.validate.validateFileLinks": "error",
+    "mdx.validate.validateFragmentLinks": "error",
+    "mdx.validate.validateMarkdownFileLinkFragments": "error",
+    "mdx.validate.validateReferences": "error",
+    "mdx.validate.validateUnusedLinkDefinitions": "error",
+    "markdown.validate.unusedLinkDefinitions.enabled": "error",
+    "markdown.validate.referenceLinks.enabled": "error",
+    "markdown.validate.fileLinks.enabled": "error",
+    "markdown.validate.fragmentLinks.enabled": "error"
+}

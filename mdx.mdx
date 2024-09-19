@@ -1,0 +1,19 @@
+{/* Works correctly */}
+[no-definition]
+{/* Does not report `link.no-such-reference` */}
+[empty-definition]()
+
+{/* Does not report `file not existing error` */}
+[non-existing-file-relative](./not-existing-file)
+{/* Does not report `file not existing error` */}
+[non-existing-file-absolute](not-existing-file)
+
+{/* Works correctly */}
+[existing-file-relative](./existing-file.md)
+{/* Works correctly */}
+[existing-file-absolute](/existing-file.md)
+
+{/* Incorrectly reports `link.no-such-header-in-file` */}
+[existing-file-existing-header](./existing-file.md#existing-header)
+{/* Correctly reports `link.no-such-header-in-file` */}
+[existing-file-non-existing-header](./existing-file.md#non-existing-header)
